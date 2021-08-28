@@ -21,6 +21,6 @@
   
 
   I've enjoyed this task very much, mostly using CSS. I believe I have improved greatly throughout this week,
-  and one thing I've learned by doing this project is that @media query is an important element in CSS that I should master,
-  or that I should have multiple queries in the future in order to support as many devices as I believe my website will reach.
+  and the first thing I've learned by doing this project is that @media query is an important element in CSS that I should master using,
+  and secondly that I should have multiple queries in the future in order to support as many devices as I believe my website will reach.
   In this project I've put my @media query last since it interfered with the rest of my CSS code.
