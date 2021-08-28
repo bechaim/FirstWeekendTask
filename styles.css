@@ -11,6 +11,24 @@ section {
     padding-bottom: 20px;
 }
 
+.leading-title {
+    font-size: 4em;
+    font-weight: bold;
+    border-bottom: solid 1px lightgrey;
+    color: #ff4411;
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 2px;
+}
+
+.list-title {
+    font-size: 1.5em; 
+}
+
+.text-refer {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.548);
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -40,24 +58,6 @@ section {
 
 .nav-link:hover {
     background-color: gray;
-}
-
-.text-refer {
-    text-decoration: none;
-    color: rgba(0, 0, 255, 0.548);
-}
-
-.leading-title {
-    font-size: 4em;
-    font-weight: bold;
-    border-bottom: solid 1px lightgrey;
-    color: #ff4411;
-    font-family: 'Raleway', sans-serif; 
-    padding-bottom: 2px;
-}
-
-.list-title {
-    font-size: 1.5em; 
 }
 
 @media screen and (max-width: 600px) {
