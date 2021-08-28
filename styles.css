@@ -1,24 +1,85 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
 
 #main-doc {
     margin-left: 200px;
+}
+
+section {
+    padding-bottom: 20px;
 }
 
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #FFFFFF;
+    background-color: #e0e7e5fb;
     margin: auto;
     height: 100%;
     width: 200px;
+    border: solid 1px lightgrey;
+    padding-top: 20px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
-.nav-link {
+.nav-link-title {
+    font-size: larger;
+}
+
+.nav-link, .nav-link:visited, .nav-link-title {
     padding: 10px 20px 5px 10px;
     text-decoration: none;
     display: block;
+    border-bottom: solid 1px lightgrey;
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: gray;
+}
+
+.text-refer {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.548);
 }
 
 .leading-title {
-    font-size: 2em;
+    font-size: 4em;
+    font-weight: bold;
+    border-bottom: solid 1px lightgrey;
+    color: #ff4411;
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 2px;
+}
+
+.list-title {
+    font-size: 1.5em; 
+}
+
+@media screen and (max-width: 600px) {
+    #main-doc {
+        margin-left: 130px;
+        overflow-x: hidden;
+    }
+
+    .leading-title {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .nav-link-title {
+        display: none;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: auto;
+        height: 100%;
+        width: 130px;
+    }
 }
