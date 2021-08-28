@@ -1,0 +1,24 @@
+
+#main-doc {
+    margin-left: 200px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    margin: auto;
+    height: 100%;
+    width: 200px;
+}
+
+.nav-link {
+    padding: 10px 20px 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.leading-title {
+    font-size: 2em;
+}
